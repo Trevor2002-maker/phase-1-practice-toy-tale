@@ -61,7 +61,7 @@ function renderToys(toy) {
 
   let p = document.createElement('p')
   p.innerText = `${toy.likes} likes`
-
+  
   let btn = document.createElement('button')
   btn.setAttribute('class', 'like-btn')
   btn.setAttribute('id', toy.id)
